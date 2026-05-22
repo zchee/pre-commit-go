@@ -1,6 +1,6 @@
 - id: gofumpt
   name: "gofumpt"
-  entry: go-gofumpt.bash
+  entry: gofumpt.bash
   files: '\.go$'
   language: "script"
   description: "Runs `gofumpt`"
