@@ -1,3 +1,10 @@
+- id: modernize
+  name: modernize
+  entry: modernize
+  files: '\.go$'
+  language: "script"
+  description: Runs `modernize`
+
 - id: gofumpt
   name: gofumpt
   entry: gofumpt
