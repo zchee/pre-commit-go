@@ -1,20 +1,20 @@
 - id: gofumpt
-  name: "gofumpt"
-  entry: gofumpt.bash
+  name: gofumpt
+  entry: gofumpt
   files: '\.go$'
   language: "script"
-  description: "Runs `gofumpt`"
+  description: Runs `gofumpt`
 
 - id: goimports-rereviser
-  name: "goimports-rereviser"
-  entry: goimports-rereviser.bash
+  name: goimports-rereviser
+  entry: goimports-rereviser
   files: '\.go$'
-  language: "script"
-  description: "Runs `goimports-rereviser`"
+  language: script
+  description: Runs `goimports-rereviser`
 
 - id: golangci-lint
-  name: "go golangci-lint"
-  entry: golangci-lint.bash
+  name: golangci-lint
+  entry: golangci-lint
   files: '\.go$'
-  language: "script"
-  description: "Runs `golangci-lint`"
+  language: script
+  description: Runs `golangci-lint`
